@@ -37,11 +37,10 @@ public class UserController {
         User returnUser = repository.getById(id);
         List<Post> postList = returnUser.getPosts();
         for (Post p : postList) {
-            p.setVoteCount(voteRepository.countVotesByPostId((p.getId())));
+            p.setVoteCount(voteRepository.countVotesByPostId(p.getId()));
         }
         return returnUser;
     }
-
     @PostMapping("/api/users")
     public User addUser(@RequestBody User user) {
         //encrypt password

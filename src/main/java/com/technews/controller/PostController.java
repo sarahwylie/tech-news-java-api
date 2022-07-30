@@ -31,7 +31,7 @@ public class PostController {
         for (Post p : postList) {
             p.setVoteCount(voteRepository.countVotesByPostId(p.getId()));
         }
-        return returnPost;
+        return postList;
     }
 
     @GetMapping("/api/posts/{id}")
