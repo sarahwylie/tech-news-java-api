@@ -43,6 +43,10 @@ public class Post implements Serializable {
         this.userId = userId;
     }
 
+    public Post() {
+
+    }
+
     public Integer getId() {
         return id;
     }

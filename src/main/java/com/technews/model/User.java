@@ -40,6 +40,10 @@ public class User implements Serializable {
         this.comments = comments;
     }
 
+    public User() {
+
+    }
+
     public Integer getId() {
         return id;
     }
