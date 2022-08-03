@@ -1,4 +1,4 @@
-# just-tech-news
+# [Just Tech News](https://just-tech-news-java-1.herokuapp.com/)
 
 ## Description
 Do you like tech a lot? Are you all about keeping up with sites like [Hacker News](https://news.ycombinator.com/)? This site is a re-vamp of the [Just Tech News](https://github.com/sarahwylie/just-tech-news) site using Java and Spring in place of JavaScript and Express!
